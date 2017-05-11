@@ -1,0 +1,36 @@
+ /*Responsive Design*/
+/*Desktop */
+@media screen and (max-width: 1200px) {
+
+}
+
+/*Tablet*/
+@media screen and (max-width: 960px) {
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 420px) {
+ 	.col-lg-3 {
+ 		display: none;
+ 	}
+ 	#tummy {
+ 		margin: 20px;
+ 	}
+ 	.left {
+ 		padding:0px;
+ 		margin: 0px;
+ 		width: 100%
+ 	}
+ 	.left > div {
+ 		padding:0px;
+ 		margin: 0px;
+ 		width: 100%
+ 	}
+
+ 	footer {
+ 		display: none;
+ 	}
+ 	 	
+}
+
